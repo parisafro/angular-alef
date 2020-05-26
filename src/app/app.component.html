@@ -1,0 +1,41 @@
+<form 
+#orderForm="ngForm" 
+(ngSubmit)="OnClick(orderForm.value)">
+
+<div>
+  <label for="order1">order 1</label>
+  <input 
+  type="checkbox"
+  ngModel name="order1"
+    #order1="ngModel">
+</div>
+
+<div>
+  <label for="order2">order 2</label>
+  <input 
+  type="checkbox"
+  ngModel name="order2"
+    #order2="ngModel">
+</div>
+
+<div>
+  <label for="order3">order 3</label>
+  <input 
+  type="checkbox"
+  ngModel name="order3"
+    #order3="ngModel">
+</div>
+
+<div>
+  <label 
+  for="order4">order 4</label>
+  <input 
+  type="checkbox"
+  ngModel name="order4"
+    #order4="ngModel">
+</div>
+
+<button (click)="OnClick">
+  submit
+</button>
+</form>
