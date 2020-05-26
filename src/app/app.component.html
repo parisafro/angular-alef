@@ -1,8 +1,9 @@
 <form 
 #orderForm="ngForm" 
 (ngSubmit)="OnClick(orderForm.value)">
-
 <div>
+
+
   <label for="order1">order 1</label>
   <input 
   type="checkbox"
@@ -34,6 +35,7 @@
   ngModel name="order4"
     #order4="ngModel">
 </div>
+
 
 <button (click)="OnClick">
   submit
