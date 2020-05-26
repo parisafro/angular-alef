@@ -12,6 +12,11 @@ ordersData = [
 { id: 3, name: 'order 3' },
 { id: 4, name: 'order 4' }
 ];
+public order1:string;
+public order2:string;
+public order3:string;
+public order4:string;
+
 OnClick(form){
     var order1 = form.order1;
     console.log(order1);
